@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>RESERVIA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/logo/iconR.png">
+    <script src="https://kit.fontawesome.com/347b4bbeba.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)*/
+</style><style media="all" id="fa-v4-shims">.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&amp;display=swap" rel="stylesheet">
+     <title>RESERVIA</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-   
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="images/logo/Reservia@3x.png" alt="logo Reservia">
+            <img src="images/logo/Reservia@3x.png" alt="photo de logo"/>
             <div class="inscription">S'inscrire</div>
         </div>
         <nav>
             <a href="#hebergements" class="navigation">Hébergements</a>
             <a href="#activités" class="navigation">Activités</a>
         </nav>
-    </header>
-     
-     
-  
-         
+    </header>       
      
 
     <section id="recherche">
@@ -33,45 +33,38 @@
             <p class="soustitre">En plein centre ville ou en pleine nature</p>
         </div>
         <div id="partie-recherche">
-            <img src="https://img.icons8.com/material-rounded/24/000000/marker.png" class="iconmap" />
+            <i class="fas fa-map-marker-alt icon-map" aria-hidden="true"
+             ></i>
             <form>
                 <input type="search" name="zone-de-saisie" id="zone-de-saisie" placeholder="Marseille, France">
             </form>
             <div class="button-bleu"><p class="rechercher">Rechercher</p><i class="fas fa-search loupe" aria-hidden="true"></i></div>
         </div>
-        <div id="groupe-filtres">
-            <h3>Filtres</h3>
-            <div class="boutons-filtre">
-                <div class="filtre">
-                   <div class="iconfiltre">
-                    <img src="https://img.icons8.com/color/30/4a90e2/flag-of-europe.png"/>
-                   </div>
-                    <p class="textefiltre">Économique</p>
-                </div>
-                <div class="filtre">
-                    <div class="iconfiltre">
-                        <img src="https://img.icons8.com/ios-filled/24/4a90e2/arms-up.png"/>
+         <div id="groupe-filtres">
+                <h3>Filtres</h3>
+                <div class="boutons-filtre">
+                    <div class="filtre">
+                        <i class="fas fa-money-bill-wave iconfiltre" aria-hidden="true"></i>
+                        <p class="textefiltre">Économique</p>
                     </div>
-                    <p class="textefiltre">Familial</p>
-                </div>
-                <div class="filtre">
-                    <div class="iconfiltre">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/like--v1.png"/>
+                    <div class="filtre">
+                        <i class="fas fa-child iconfiltre" aria-hidden="true"></i>
+                        <p class="textefiltre">Familial</p>
                     </div>
-                    <p class="textefiltre">Romantique</p>
-                </div>
-                <div class="filtre">
-                    <div class="iconfiltre">
-                        <img src="https://img.icons8.com/ios-filled/24/4a90e2/dog.png"/>
+                    <div class="filtre">
+                        <i class="fas fa-heart iconfiltre" aria-hidden="true"></i>
+                        <p class="textefiltre">Romantique</p>
                     </div>
-                    <p class="textefiltre">Animaux autorisés</p>
+                    <div class="filtre">
+                        <i class="fas fa-dog iconfiltre" aria-hidden="true"></i>
+                        <p class="textefiltre">Animaux autorisés</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="info">
-            <img src="https://img.icons8.com/material-rounded/24/4a90e2/information.png" class="iconne-i"/>
-            <p class="soustitre">Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
+         <div id="info">
+                <i class="fas fa-info iconi" aria-hidden="true"></i>
+                <p class="soustitre">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
     </section>
 
     <div id="bloc-page">
@@ -82,50 +75,48 @@
         <div id="bloc-hébergements">
             <div class="hebergement-ligne1">
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche1">
-                    <p><h4>Auberge de Cannebière</h4>
-                        Nuit à partir de 25€</p>
+                    <h4>Auberge de Cannebière</h4>
+                    <p>Nuit à partir de 25€</p>
                     <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                        <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
-
             </div>
 
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche">
                     <h4>Hôtel du port</h4>
                     <p>Nuit à partir de 52€</p>
                     <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
                     </div>
-
                 </div>
 
             </div>
 
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche">
                     <h4>Hôtel les mouettes</h4>
                     <p>Nuit à partir de 76€</p>
                     <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                        <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
@@ -136,16 +127,16 @@
             
             <div class="hebergements-ligne2"> 
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche">
                     <h4>Hôtel de la Mer</h4>
                     <p>Nuit à partir de 46 €</p>
                     <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star stargrey" aria-hidden="true"></i>
+                        <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
@@ -153,33 +144,32 @@
             </div>
 
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche">
                     <h4>Auberge le Panier</h4>
                     <p>Nuit à partir de 23 €</p>
-                    <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                     <div class="etoiles">
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                        <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
-
             </div>
 
             <div class="groupe-hébergement">
-                <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre d'ho^tel" class="hotel">
+                <img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre d'hôtel" class="hotel">
                 <div class="zone-blanche">
                     <h4>Hôtel Amina</h4>
                     <p>Nuit à partir de 96 €</p>
-                    <div class="etoiles">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
+                     <div class="etoiles">
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
                     </div>
 
                 </div>
@@ -195,37 +185,37 @@
     <aside id="populaires" class="fond-gris">
         <div class="titre-aside">
             <h2>Les plus populaires</h2>
-            <a href="https://icons8.com/icon/98067/graphique"><img src="https://img.icons8.com/material-rounded/24/000000/graph.png" class="iconcourbe"/></a>
+            <a href="https://icons8.com/icon/98067/graphique">
+                <img src="https://img.icons8.com/material-rounded/24/000000/graph.png" class="iconcourbe"/></a>
         </div>
         <div class="bloc-populaires">
             <div class="groupe-populaire">
-                <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre d'hôtel" class="pop">
+                <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre d'hôtel" class="pop"/>
                 <div class="zone-blanche2">
                     <h4>Hôtel le soleil du matin</h4>
                     <p> Nuit à partir de 128 € </p>
                     <div class="étoilesaside">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
                     </div>
-
                 </div>
 
             </div>
 
             <div class="groupe-populaire">
-                <img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre d'hôtel" class="pop"> 
+                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre d'hôtel" class="pop"/> 
                 <div class="zone-blanche2">
                     <h4>Hôtel Au coeur de l'eau chambres d'hôtes</h4>
                     <p> Nuit à partir de 71 € </p>
                     <div class="étoilesaside">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
@@ -238,11 +228,11 @@
                     <h4>Hôtel tout bleu et blanc</h4>
                     <p> Nuit à partir de 68 € </p>
                     <div class="étoilesaside">
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/4a90e2/hand-drawn-star.png"/>
-                        <img src="https://img.icons8.com/material-rounded/24/000000/filled-star.png"/>
+                        <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star starblue" aria-hidden="true"></i>
+                         <i class="fas fa-star stargrey" aria-hidden="true"></i>
                     </div>
 
                 </div>
@@ -308,8 +298,6 @@
         </section>
     </div>
 </section>
-</div>
-
 </div>
 
 <footer>
